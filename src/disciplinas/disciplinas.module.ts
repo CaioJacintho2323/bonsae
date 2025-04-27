@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { DisciplinasService } from './service/disciplinas.service';
-import { DisciplinasController } from './disciplinas.controller';
+import { DisciplinasController } from './controller/disciplinas.controller';
 import { Disciplina, DisciplinaSchema } from './schemas/disciplina.schema';
 
 @Module({
