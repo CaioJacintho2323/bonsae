@@ -9,6 +9,6 @@ export class CreatePeriodoLetivoDto {
   @IsString()
   periodo: string;
 
-  @IsDate
+  
 
 }
